@@ -51,50 +51,9 @@ Cypress
 
 Instrucciones de ejecución:
 
-1. Instrucciones Ejecución Escenario de Pruebas 1
-2. Instrucciones Ejecución Escenario de Pruebas 2
-3. Instrucciones Ejecución Escenario de Pruebas 3
-4. Instrucciones Ejecución Escenario de Pruebas 4
-5. Instrucciones Ejecución Escenario de Pruebas 5
-6. Instrucciones Ejecución Escenario de Pruebas 6
-7. Instrucciones Ejecución Escenario de Pruebas 7
-8. Instrucciones Ejecución Escenario de Pruebas 8
-9. Instrucciones Ejecución Escenario de Pruebas 9
-10. Instrucciones Ejecución Escenario de Pruebas 10
-11. Instrucciones Ejecución Escenario de Pruebas 11
-12. Instrucciones Ejecución Escenario de Pruebas 12
-13. Instrucciones Ejecución Escenario de Pruebas 13
-14. Instrucciones Ejecución Escenario de Pruebas 14
-15. Instrucciones Ejecución Escenario de Pruebas 15
-16. Instrucciones Ejecución Escenario de Pruebas 16
-17. Instrucciones Ejecución Escenario de Pruebas 17
-18. Instrucciones Ejecución Escenario de Pruebas 18
-19. Instrucciones Ejecución Escenario de Pruebas 19
-20. Instrucciones Ejecución Escenario de Pruebas 20
+[Intrucciones Cypress]
 
 
 Kraken
 
-Instrucciones de ejecución:
-
-1. Instrucciones Ejecución Escenario de Pruebas 1
-2. Instrucciones Ejecución Escenario de Pruebas 2
-3. Instrucciones Ejecución Escenario de Pruebas 3
-4. Instrucciones Ejecución Escenario de Pruebas 4
-5. Instrucciones Ejecución Escenario de Pruebas 5
-6. Instrucciones Ejecución Escenario de Pruebas 6
-7. Instrucciones Ejecución Escenario de Pruebas 7
-8. Instrucciones Ejecución Escenario de Pruebas 8
-9. Instrucciones Ejecución Escenario de Pruebas 9
-10. Instrucciones Ejecución Escenario de Pruebas 10
-11. Instrucciones Ejecución Escenario de Pruebas 11
-12. Instrucciones Ejecución Escenario de Pruebas 12
-13. Instrucciones Ejecución Escenario de Pruebas 13
-14. Instrucciones Ejecución Escenario de Pruebas 14
-15. Instrucciones Ejecución Escenario de Pruebas 15
-16. Instrucciones Ejecución Escenario de Pruebas 16
-17. Instrucciones Ejecución Escenario de Pruebas 17
-18. Instrucciones Ejecución Escenario de Pruebas 18
-19. Instrucciones Ejecución Escenario de Pruebas 19
-20. Instrucciones Ejecución Escenario de Pruebas 20
-
+[Intrucciones Cypress]
