@@ -13,12 +13,12 @@ Integrantes del Equipo:
 
 Funcionalidades Bajo Pruebas:
 
-1. Funcionalidad 1. Ingresar con cuenta
-2. Funcionalidad 2. Listar Posts
-3. Funcionalidad 3. Editar Post
-4. Funcionalidad 4. Crear Post
-5. Funcionalidad 5. Publicar Post
-6. Funcionalidad 6. Eliminar Post
+1. Funcionalidad 1. Ingresar con cuenta: Permite ingresar a la aplicación con una cuenta previamente creada.
+2. Funcionalidad 2. Listar Posts: Permite listar los Post existentes, tanto publicados como versiones en borrador.
+3. Funcionalidad 3. Editar Post: Permite editar un Post previamente creado, ya sea en borrador o ya publicado. El resultado queda en borrador.
+4. Funcionalidad 4. Crear Post: Permite crear un nuevo Post en borrador.
+5. Funcionalidad 5. Publicar Post: Permite publicar un Post previamente guardado como borrador.
+6. Funcionalidad 6. Eliminar Post: Permite eliminar un Post previamente creado.
 
 
 Escenarios de Pruebas:
