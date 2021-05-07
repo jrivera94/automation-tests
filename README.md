@@ -33,16 +33,16 @@ Escenarios de Pruebas:
 8. Escenario de Pruebas 8. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Post, Eliminar Post, Listar Posts 
 9. Escenario de Pruebas 9. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Post, Crear Post, Publicar Post, Listar Posts
 10. Escenario de Pruebas 10. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Post, Editar Post, Listar Posts
-11. Escenario de Pruebas 11. 
-12. Escenario de Pruebas 12.
-13. Escenario de Pruebas 13.
-14. Escenario de Pruebas 14.
-15. Escenario de Pruebas 15.
-16. Escenario de Pruebas 16.
-17. Escenario de Pruebas 17.
-18. Escenario de Pruebas 18.
-19. Escenario de Pruebas 19.
-20. Escenario de Pruebas 20.
+11. Escenario de Pruebas 11. Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Crear Post, Listar Post
+12. Escenario de Pruebas 12. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Crear Post, Listar Post
+13. Escenario de Pruebas 13. Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Editar Post, Listar Post
+14. Escenario de Pruebas 14. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Editar Post, Listar Post
+15. Escenario de Pruebas 15. Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Editar Post, Publicar Post, Listar Post
+16. Escenario de Pruebas 16. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Editar Post, Listar Post
+17. Escenario de Pruebas 17. Ingresar con cuenta válida, Listar Posts, Crear Post (500 caracteres), Listar Posts
+18. Escenario de Pruebas 18. Ingresar con cuenta inválida, Listar Posts, Crear Post (500 caracteres), Listar Posts
+19. Escenario de Pruebas 19. Ingresar con cuenta válida, Listar Posts, Crear Post (500 caracteres), Listar Posts
+20. Escenario de Pruebas 20. Ingresar con cuenta inválida, Listar Posts, Crear Post (500 caracteres), Listar Posts
 
 
 [El readme del repo detalla las instrucciones para ejecutar los escenarios. Estas instrucciones deben llevar a la ejecución de los escenarios. De lo contrario no se darán los puntos en el siguiente criterio. [2 puntos]]
