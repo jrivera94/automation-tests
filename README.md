@@ -70,7 +70,7 @@ PageObject
 - Ubíquese en la carpeta `automation-tests/cypress-page-object`
 - En el archivo `cypress.json` cambie el valor de la variable `baseUrl` en caso de ser necesario
 - En la ruta `cypress/fixtures` cambie las credenciales de `user.json` por un usuario válido en la instalación de ghost
-- En la ruta `cypress/fixtures` cambie las credenciales de `user.json` por un usuario no válido en la instalación de ghost
+- En la ruta `cypress/fixtures` cambie las credenciales de `user2.json` por un usuario no válido en la instalación de ghost
 
 _Opcion 1_
 
