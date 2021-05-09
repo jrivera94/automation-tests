@@ -48,8 +48,8 @@ El readme del repositorio describe los 20 escenarios de pruebas. [3 puntos]
 16. Escenario de Pruebas 16. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Editar Post, Listar Post
 17. Escenario de Pruebas 17. Ingresar con cuenta válida, Listar Posts, Crear Post (500 caracteres), Listar Posts
 18. Escenario de Pruebas 18. Ingresar con cuenta inválida, Listar Posts, Crear Post (500 caracteres), Listar Posts
-19. Escenario de Pruebas 19. Ingresar con cuenta válida, Listar Posts, Crear Post (500 caracteres), Listar Posts
-20. Escenario de Pruebas 20. Ingresar con cuenta inválida, Listar Posts, Crear Post (500 caracteres), Listar Posts
+19. Escenario de Pruebas 19. Ingresar con cuenta válida, Listar Posts, Editar Post (500 caracteres), Listar Posts
+20. Escenario de Pruebas 20. Ingresar con cuenta inválida, Listar Posts, Editar Post (500 caracteres), Listar Posts
 
 ```
 El readme del repo detalla las instrucciones para ejecutar los escenarios. Estas instrucciones deben llevar a la ejecución de los escenarios. De lo contrario no se darán los puntos en el siguiente criterio. [2 puntos]
