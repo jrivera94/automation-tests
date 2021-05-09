@@ -1,6 +1,6 @@
 Feature: Login, list post, edit and delete post
         @user1 @web
-        Scenario: As a web master I want to update and delete a post after login in ghost
+        Scenario: Ingresar con cuenta válida, Listar Posts, Editar Post, Listar Posts
                 Given I navigate to page "<LOGIN>"
                 Then I enter "<USER>" into input field having id "ember8"
                 Then I enter "<PASSWORD>" into input field having id "ember10"
