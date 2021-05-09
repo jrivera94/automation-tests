@@ -59,7 +59,8 @@ El readme del repo detalla las instrucciones para ejecutar los escenarios. Estas
 
 **Instalación**
 
-Antes de comenzar con lo siguiente debe tener instalado Ghost en el sistema. [Instrucciones](https://ghost.org/docs/install/)
+- Antes de comenzar con lo siguiente debe tener instalado Ghost en el sistema. [Instrucciones](https://ghost.org/docs/install/)
+- Antes de comenzar con lo siguiente debe tener instalado Cypress en el sistema. [Instrucciones](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
 **Patrón**
 
