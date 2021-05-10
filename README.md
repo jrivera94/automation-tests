@@ -96,7 +96,8 @@ Para esta ejecución vamos a usar la maquina virtual que provee el curso
 * ubicarse en el directorio kraken-week-5 ejecutar `cd kraken-week-5`
 * ejecutar el comando `bundle install`
 
-Aqui ya tendremos el ambiente configurato
+Aqui ya tendremos el ambiente configurado
+
 **Patrón**
 
 Given When Then
