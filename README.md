@@ -92,7 +92,7 @@ Para esta ejecución vamos a usar la maquina virtual que provee el curso
 * Creamos una máquina virtual de VirtualBox en cual Kraken esta instalado y funcionando. La puede encontrar en la siguiente url y la clave es "pruebas": https://zenodo.org/record/4739209/files/Ubuntu20Light_copy.vdi?download=1
 * una vez configurada la maquina virtual procedemos a glonar el proyecto haciendo `git clone https://github.com/andalm/automation-tests.git`
 * ubicarse en el directorio /kraken-given-when-then/TallerKraken/ ejecutar `cd kraken-given-when-then/TallerKraken/`
-* ejecutar ```gem install bundler`````
+* ejecutar `gem install bundler`
 * ubicarse en el directorio kraken-week-5 ejecutar `cd kraken-week-5`
 * ejecutar el comando `bundle install`
 
