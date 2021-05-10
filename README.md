@@ -105,4 +105,9 @@ Given When Then
 **Instrucciones de ejecución:**
 
 - Paso 1 debemos de estar ubicados en el directorio `kraken-week-5`
-- Paso 2 ejecutar `bundle exec kraken-mobile run --properties=kraken_properties.json`
+- Paso 2 debemos de asegura que tengamos conectividad entre nuestra maquina virtual y nuestro servidor de ghost
+- Paso 3 debemos cambiar en el archivo kraken_properties.json los siguientes valores 
+  - cambiar la propiedad USER por el usuario registrado en ghost
+  - cambiar la propiedad PASSWORD por el password registrado en la app para el usuario anterior
+  - cambiar las ip solamente las ip para las propiedades  LOGIN, LIST_POST, RELOAD_POST, POST_CREATOR, POST_CREATOR_2, RELOAD_POST_2
+- Paso 4 ejecutar `bundle exec kraken-mobile run --properties=kraken_properties.json`
