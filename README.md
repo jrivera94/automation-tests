@@ -54,6 +54,9 @@ El readme del repositorio describe los 20 escenarios de pruebas. [3 puntos]
 ```
 El readme del repo detalla las instrucciones para ejecutar los escenarios. Estas instrucciones deben llevar a la ejecución de los escenarios. De lo contrario no se darán los puntos en el siguiente criterio. [2 puntos]
 ```
+### Prerequisitos
+- Tener instalado ghost en la version 3.3.0
+- version de node 12.16.1
 
 ### Cypress
 
