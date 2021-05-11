@@ -56,7 +56,7 @@ El readme del repo detalla las instrucciones para ejecutar los escenarios. Estas
 ```
 ### Prerequisitos
 - Tener instalado ghost en la version 3.3.0
-- version de node 12.16.1
+- Version de node 12.16.1
 
 ### Cypress
 
@@ -112,5 +112,5 @@ Given When Then
 - Paso 3 debemos cambiar en el archivo kraken_properties.json los siguientes valores 
   - Cambiar la propiedad USER por el usuario registrado en ghost
   - Cambiar la propiedad PASSWORD por el password registrado en la app para el usuario anterior
-  - Cambiar las ip y pto , para las propiedades LOGIN, LIST_POST, RELOAD_POST, POST_CREATOR, POST_CREATOR_2, RELOAD_POST_2, esto con la ip y el pto en donde esta corriendo la instancia de ghost
+  - Cambiar las ip y puerto, para las propiedades LOGIN, RELOAD_LOGIN, LIST_POST, RELOAD_POST, POST_CREATOR, POST_CREATOR_2, RELOAD_POST_2, esto con la ip y el puerto en donde esta corriendo la instancia de ghost
 - Paso 4 ejecutar `bundle exec kraken-mobile run --properties=kraken_properties.json`
