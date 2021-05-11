@@ -45,15 +45,18 @@ El readme del repositorio describe los 20 escenarios de pruebas. [3 puntos]
 13. Escenario de Pruebas 13. Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Editar Post, Listar Post
 14. Escenario de Pruebas 14. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Editar Post, Listar Post
 15. Escenario de Pruebas 15. Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Editar Post, Publicar Post, Listar Post
-16. Escenario de Pruebas 16. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Editar Post, Listar Post
+16. Escenario de Pruebas 16. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Posts, Crear Post, Listar Posts, Editar Post, Publicar Post, Listar Post
 17. Escenario de Pruebas 17. Ingresar con cuenta válida, Listar Posts, Crear Post (500 caracteres), Listar Posts
-18. Escenario de Pruebas 18. Ingresar con cuenta inválida, Listar Posts, Crear Post (500 caracteres), Listar Posts
+18. Escenario de Pruebas 18. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Posts, Crear Post (500 caracteres), Listar Posts
 19. Escenario de Pruebas 19. Ingresar con cuenta válida, Listar Posts, Editar Post (500 caracteres), Listar Posts
-20. Escenario de Pruebas 20. Ingresar con cuenta inválida, Listar Posts, Editar Post (500 caracteres), Listar Posts
+20. Escenario de Pruebas 20. Ingresar con cuenta inválida, Ingresar con cuenta válida, Listar Posts, Editar Post (500 caracteres), Listar Posts
 
 ```
 El readme del repo detalla las instrucciones para ejecutar los escenarios. Estas instrucciones deben llevar a la ejecución de los escenarios. De lo contrario no se darán los puntos en el siguiente criterio. [2 puntos]
 ```
+### Prerequisitos
+- Tener instalado ghost en la version 3.3.0
+- Version de node 12.16.1
 
 ### Cypress
 
@@ -90,13 +93,13 @@ _Opcion 2_
 
 Para esta ejecución vamos a usar la maquina virtual que provee el curso 
 * Creamos una máquina virtual de VirtualBox en cual Kraken esta instalado y funcionando. La puede encontrar en la siguiente url y la clave es "pruebas": https://zenodo.org/record/4739209/files/Ubuntu20Light_copy.vdi?download=1
-* una vez configurada la maquina virtual procedemos a glonar el proyecto haciendo `git clone https://github.com/andalm/automation-tests.git`
-* ubicarse en el directorio /kraken-given-when-then/TallerKraken/ ejecutar `cd kraken-given-when-then/TallerKraken/`
-* ejecutar `gem install bundler`
-* ubicarse en el directorio kraken-week-5 ejecutar `cd kraken-week-5`
-* ejecutar el comando `bundle install`
+* Una vez configurada la maquina virtual procedemos a clonar el proyecto haciendo `git clone https://github.com/andalm/automation-tests.git`
+* Ubicarse en el directorio /kraken-given-when-then/TallerKraken/ ejecutar `cd kraken-given-when-then/TallerKraken/`
+* Ejecutar `gem install bundler`
+* Ubicarse en el directorio kraken-week-5 ejecutar `cd kraken-week-5`
+* Ejecutar el comando `bundle install`
 
-Aqui ya tendremos el ambiente configurado
+Aquí ya tendremos el ambiente configurado
 
 **Patrón**
 
@@ -105,9 +108,9 @@ Given When Then
 **Instrucciones de ejecución:**
 
 - Paso 1 debemos de estar ubicados en el directorio `kraken-week-5`
-- Paso 2 debemos de asegura que tengamos conectividad entre nuestra maquina virtual y nuestro servidor de ghost
+- Paso 2 debemos de asegurar que tenemos conectividad entre nuestra máquina virtual y nuestro servidor de ghost
 - Paso 3 debemos cambiar en el archivo kraken_properties.json los siguientes valores 
-  - cambiar la propiedad USER por el usuario registrado en ghost
-  - cambiar la propiedad PASSWORD por el password registrado en la app para el usuario anterior
-  - cambiar las ip solamente las ip para las propiedades  LOGIN, LIST_POST, RELOAD_POST, POST_CREATOR, POST_CREATOR_2, RELOAD_POST_2
+  - Cambiar la propiedad USER por el usuario registrado en ghost
+  - Cambiar la propiedad PASSWORD por el password registrado en la app para el usuario anterior
+  - Cambiar las ip y puerto, para las propiedades LOGIN, RELOAD_LOGIN, LIST_POST, RELOAD_POST, POST_CREATOR, POST_CREATOR_2, RELOAD_POST_2, esto con la ip y el puerto en donde esta corriendo la instancia de ghost
 - Paso 4 ejecutar `bundle exec kraken-mobile run --properties=kraken_properties.json`
