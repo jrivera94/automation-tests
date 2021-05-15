@@ -12,7 +12,5 @@
     },
     "scaleToSameSize": true,
     "ignore": "antialiasing",
-    "assets": "../cypress/screenshots/All Integration Specs",
-    "results": "./results",
-    "url": "https://andalm.github.io/color-pallete/"
+    "assets": "./cypress/screenshots/All Integration Specs"
 }

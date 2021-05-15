@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/andalm/automation-tests#readme",
   "dependencies": {
+    "lodash": "^4.17.21",
     "resemblejs": "^3.2.5"
   }
 }

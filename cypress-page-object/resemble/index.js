@@ -8,5 +8,5 @@ const createReport = require('./htmlGenerator').createReport;
 (async function generateReport() {
     let result = await compareScreenshots();
     let dateTime = new Date().toISOString();
-    writeFileSync(`./comparator/report.html`, createReport(dateTime, result));
+    writeFileSync(`./resemble/report.html`, createReport(dateTime, result));
 })();
