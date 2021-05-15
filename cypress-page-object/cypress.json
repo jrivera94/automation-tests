@@ -1,6 +1,7 @@
 {
     "baseUrl": "http://localhost:2368/ghost/#",
     "chromeWebSecurity": false,
+    "fileName": "before",
     "retries": { 
         "runMode": 3, 
         "openMode": 3 
