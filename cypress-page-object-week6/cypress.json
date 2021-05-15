@@ -1,5 +1,5 @@
 {
-    "baseUrl": "http://localhost:2369/ghost/#",
+    "baseUrl": "http://localhost:2368/ghost/#",
     "chromeWebSecurity": false,
     "retries": { 
         "runMode": 3, 
