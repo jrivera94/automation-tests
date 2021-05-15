@@ -1,4 +1,4 @@
-# Entrega Semana 5
+# Entrega Semana 6
 
 ### Integrantes del Equipo:
 
@@ -54,7 +54,9 @@ El readme del repositorio describe los 20 escenarios de pruebas. [3 puntos]
 ```
 El readme del repo detalla las instrucciones para ejecutar los escenarios. Estas instrucciones deben llevar a la ejecución de los escenarios. De lo contrario no se darán los puntos en el siguiente criterio. [2 puntos]
 ```
+
 ### Prerequisitos
+
 - Tener instalado ghost en la version 3.3.0
 - Version de node 12.16.1
 
@@ -67,7 +69,7 @@ El readme del repo detalla las instrucciones para ejecutar los escenarios. Estas
 
 **Patrón**
 
-PageObject
+### PageObject
 
 **Instrucciones de ejecución:**
 
@@ -85,32 +87,67 @@ _Opcion 2_
 
 - Ubicado en carpeta `automation-tests/cypress-page-object` corra el comando `cypress run --headless`, esto correrá todas las pruebas y generará videos y screenshots
 
+### Resemble JS
+
+**Instalación**
+
+- Ubíquese en la carpeta `automation-tests/cypress-page-object`
+- Corra el comando `npm install`
+
+**Instrucciones de ejecución:**
+
+- Una vez esté en esta la carpeta `automation-tests/cypress-page-object`, corra el comando
+  `node resemble`
+- Tardará por lo menos 1 min la ejecución y generará un reporte html en `automation-tests/cypress-page-object/resemble/report.html`, podrá abrirlo en el navegador de su preferencia
+- También en `automation-tests/cypress-page-object/cypress/screenshots/All Integration Specs` en cada escenario de prueba generará la imagen de comparación `diff*.png` para cada paso de la prueba
+
+**Ecanarios de prueba**
+
+Cubre del escenario 1 al 5
+
 ---
 
 ### Kraken
 
 **Instalación**
 
-Para esta ejecución vamos a usar la maquina virtual que provee el curso 
-* Creamos una máquina virtual de VirtualBox en cual Kraken esta instalado y funcionando. La puede encontrar en la siguiente url y la clave es "pruebas": https://zenodo.org/record/4739209/files/Ubuntu20Light_copy.vdi?download=1
-* Una vez configurada la maquina virtual procedemos a clonar el proyecto haciendo `git clone https://github.com/andalm/automation-tests.git`
-* Ubicarse en el directorio /kraken-given-when-then/TallerKraken/ ejecutar `cd kraken-given-when-then/TallerKraken/`
-* Ejecutar `gem install bundler`
-* Ubicarse en el directorio kraken-week-5 ejecutar `cd kraken-week-5`
-* Ejecutar el comando `bundle install`
+Para esta ejecución vamos a usar la maquina virtual que provee el curso
+
+- Creamos una máquina virtual de VirtualBox en cual Kraken esta instalado y funcionando. La puede encontrar en la siguiente url y la clave es "pruebas": https://zenodo.org/record/4739209/files/Ubuntu20Light_copy.vdi?download=1
+- Una vez configurada la maquina virtual procedemos a clonar el proyecto haciendo `git clone https://github.com/andalm/automation-tests.git`
+- Ubicarse en el directorio /kraken-given-when-then/TallerKraken/ ejecutar `cd kraken-given-when-then/TallerKraken/`
+- Ejecutar `gem install bundler`
+- Ubicarse en el directorio kraken-week-5 ejecutar `cd kraken-week-5`
+- Ejecutar el comando `bundle install`
 
 Aquí ya tendremos el ambiente configurado
 
 **Patrón**
 
-Given When Then
+### Given When Then
 
 **Instrucciones de ejecución:**
 
 - Paso 1 debemos de estar ubicados en el directorio `kraken-week-5`
 - Paso 2 debemos de asegurar que tenemos conectividad entre nuestra máquina virtual y nuestro servidor de ghost
-- Paso 3 debemos cambiar en el archivo kraken_properties.json los siguientes valores 
+- Paso 3 debemos cambiar en el archivo kraken_properties.json los siguientes valores
   - Cambiar la propiedad USER por el usuario registrado en ghost
   - Cambiar la propiedad PASSWORD por el password registrado en la app para el usuario anterior
   - Cambiar las ip y puerto, para las propiedades LOGIN, RELOAD_LOGIN, LIST_POST, RELOAD_POST, POST_CREATOR, POST_CREATOR_2, RELOAD_POST_2, esto con la ip y el puerto en donde esta corriendo la instancia de ghost
 - Paso 4 ejecutar `bundle exec kraken-mobile run --properties=kraken_properties.json`
+
+### Backstop JS
+
+**Instalación**
+
+- Paso 1
+- Paso 2
+
+**Instrucciones de ejecución:**
+
+- Paso 1
+- Paso 2
+
+**Ecanarios de prueba**
+
+Cubre del escenario 6 al 10
