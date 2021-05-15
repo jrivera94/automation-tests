@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/andalm/automation-tests/issues"
   },
-  "homepage": "https://github.com/andalm/automation-tests#readme"
+  "homepage": "https://github.com/andalm/automation-tests#readme",
+  "dependencies": {
+    "resemblejs": "^3.2.5"
+  }
 }
