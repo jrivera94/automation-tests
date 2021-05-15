@@ -1,7 +1,9 @@
 {
-    "baseUrl": "http://localhost:2368/ghost/#",
+    "baseUrl": "http://localhost:2368/ghost",
     "chromeWebSecurity": false,
     "fileName": "before",
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
     "retries": { 
         "runMode": 3, 
         "openMode": 3 
