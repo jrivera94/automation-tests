@@ -101,7 +101,7 @@ _Opcion 2_
 - Tardará por lo menos 1 min la ejecución y generará un reporte html en `automation-tests/cypress-page-object/resemble/report.html`, podrá abrirlo en el navegador de su preferencia
 - También en `automation-tests/cypress-page-object/cypress/screenshots/All Integration Specs` en cada escenario de prueba generará la imagen de comparación `diff*.png` para cada paso de la prueba
 
-**Ecanarios de prueba**
+**Ecanarios de prueba (VRT)**
 
 Cubre del escenario 1 al 5
 
@@ -148,6 +148,6 @@ Aquí ya tendremos el ambiente configurado
 - Paso 1
 - Paso 2
 
-**Ecanarios de prueba**
+**Ecanarios de prueba (VRT)**
 
 Cubre del escenario 6 al 10
