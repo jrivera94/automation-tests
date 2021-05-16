@@ -57,7 +57,7 @@ El readme del repo detalla las instrucciones para ejecutar los escenarios. Estas
 
 ### Prerequisitos
 
-- Tener instalado ghost en la version 3.3.0
+- Tener instalado ghost en las versiones bajo prueba (v3.3.0 y v3.42.5)
 - Version de node 12.16.1
 
 ### Cypress
