@@ -3,6 +3,7 @@
                 "USER" : "jarivera94@hotmail.com",
                 "PASSWORD": "Agosto1994*",
                 "LOGIN": "http://192.168.0.4:2368/ghost/#/signin",
+                 "RELOAD_LOGIN": "http://192.168.0.4:2368/ghost/#/signin",
                 "LIST_POST": "http://192.168.0.4:2368/ghost/#/posts",
 		"RELOAD_POST" : "http://192.168.0.4:2368/ghost/#/posts",
                 "POST_CREATOR": "http://192.168.0.4:2368/ghost/#/editor/post",
