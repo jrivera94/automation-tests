@@ -1,0 +1,23 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/ghost_ghost_escenario6_0_document_0_ubuntu.png",
+        "test": "../bitmaps_test/20210516-214328/ghost_ghost_escenario6_0_document_0_ubuntu.png",
+        "selector": "document",
+        "fileName": "ghost_ghost_escenario6_0_document_0_ubuntu.png",
+        "label": "ghost_escenario6",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "file:///Users/alexander.rivera/Documents/MISO/pruebas-automatizadas/automation-tests/kraken-given-when-then/TallerKraken/kraken-week-5/reports/ac7a47f1f46c3096e548e941bce38741bccdb4614b99eb6c9c14a494b9dd2894/screenshots/ghost_escenario6_1_ubuntu.png",
+        "referenceUrl": "file:///Users/alexander.rivera/Documents/MISO/pruebas-automatizadas/automation-tests/kraken-given-when-then/TallerKraken/kraken-week-6/reports/a1afb3126fac8bb59494c938993ebdc2aaab96efd15adb2a79db5c2b5b412b0a/screenshots/ghost_escenario6_1_ubuntu.png",
+        "expect": 0,
+        "viewportLabel": "ubuntu",
+        "error": "Reference file not found /Users/alexander.rivera/Documents/MISO/pruebas-automatizadas/automation-tests/kraken-given-when-then/TallerKraken/backstopjs/backstop_data/bitmaps_reference/ghost_ghost_escenario6_0_document_0_ubuntu.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "ghost"
+}

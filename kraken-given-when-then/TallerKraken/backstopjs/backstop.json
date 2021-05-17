@@ -1,25 +1,20 @@
 {
-  "id": "backstop_default",
+  "id": "ghost",
   "viewports": [
     {
-      "label": "phone",
-      "width": 320,
-      "height": 480
-    },
-    {
-      "label": "tablet",
-      "width": 1024,
-      "height": 768
+      "label": "ubuntu",
+      "width": 728,
+      "height":418
     }
   ],
   "onBeforeScript": "puppet/onBefore.js",
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "BackstopJS Homepage",
+      "label": "ghost_escenario6",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://garris.github.io/BackstopJS/",
-      "referenceUrl": "",
+      "url": "file:///Users/alexander.rivera/Documents/MISO/pruebas-automatizadas/automation-tests/kraken-given-when-then/TallerKraken/kraken-week-5/reports/ac7a47f1f46c3096e548e941bce38741bccdb4614b99eb6c9c14a494b9dd2894/screenshots/ghost_escenario6_1_ubuntu.png",
+      "referenceUrl": "file:///Users/alexander.rivera/Documents/MISO/pruebas-automatizadas/automation-tests/kraken-given-when-then/TallerKraken/kraken-week-6/reports/a1afb3126fac8bb59494c938993ebdc2aaab96efd15adb2a79db5c2b5b412b0a/screenshots/ghost_escenario6_1_ubuntu.png",
       "readyEvent": "",
       "readySelector": "",
       "delay": 0,
