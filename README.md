@@ -128,6 +128,8 @@ Aquí ya tendremos el ambiente configurado
 
 **Instrucciones de ejecución:**
 
+Para correr los la automazacion e2e para la version de ghost 3.3.0 se deben de seguir los siguientes pasos:
+
 - Paso 1 debemos de estar ubicados en el directorio `kraken-week-5`
 - Paso 2 debemos de asegurar que tenemos conectividad entre nuestra máquina virtual y nuestro servidor de ghost
 - Paso 3 debemos cambiar en el archivo kraken_properties.json los siguientes valores
@@ -136,18 +138,30 @@ Aquí ya tendremos el ambiente configurado
   - Cambiar las ip y puerto, para las propiedades LOGIN, RELOAD_LOGIN, LIST_POST, RELOAD_POST, POST_CREATOR, POST_CREATOR_2, RELOAD_POST_2, esto con la ip y el puerto en donde esta corriendo la instancia de ghost
 - Paso 4 ejecutar `bundle exec kraken-mobile run --properties=kraken_properties.json`
 
+Para correr los la automazacion e2e para la version de ghost 3.42.5 se deben de seguir los siguientes pasos:
+
+- Paso 1 debemos de estar ubicados en el directorio `kraken-week-6`
+- Paso 2 debemos de asegurar que tenemos conectividad entre nuestra máquina virtual y nuestro servidor de ghost
+- Paso 3 debemos cambiar en el archivo kraken_properties.json los siguientes valores
+  - Cambiar la propiedad USER por el usuario registrado en ghost
+  - Cambiar la propiedad PASSWORD por el password registrado en la app para el usuario anterior
+  - Cambiar las ip y puerto, para las propiedades LOGIN, RELOAD_LOGIN, LIST_POST, RELOAD_POST, POST_CREATOR, POST_CREATOR_2, RELOAD_POST_2, esto con la ip y el puerto en donde esta corriendo la instancia de ghost
+- Paso 4 ejecutar `bundle exec kraken-mobile run --properties=kraken_properties.json`
+
+
 ### Backstop JS
 
 **Instalación**
 
-- Paso 1
-- Paso 2
+- Paso 2 ejecutar `npm install -g backstopjs`
 
 **Instrucciones de ejecución:**
 
-- Paso 1
-- Paso 2
-
+- Paso 1 ubicarse en el directorio `automation-tests/kraken-given-when-then/TallerKraken/backstopjs`
+- Paso 2 ejecutar `backstop test`
+- Paso 3 ejecutar `backstop approve`
+- Paso 4 ejecutar `backstop test`
+El reporte detallado lo puede encontrar en `${PATH_LOCAL_REPOSITORY}/automation-tests/kraken-given-when-then/TallerKraken/backstopjs/backstop_data/html_report/index.html`
 **Escenarios de prueba (VRT)**
 
 Cubre del escenario 6 al 10
